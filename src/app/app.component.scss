@@ -1,0 +1,68 @@
+.main_container {
+  min-height: 100vh;
+  border-bottom: 10px solid #181818;
+  padding: 20px;
+  background: #fafafa;
+}
+
+.box {
+  padding: 20px;
+  background: #ffffff;
+  margin-bottom: 160px;
+  position: relative;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.right {
+  min-height: 300px;
+}
+
+.main_info {
+  border-bottom: 1px solid #181818;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 26px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  line-height: 1;
+  color: #181818;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, .54);;
+  line-height: 1;
+  margin: 0 0;
+}
+
+.my_photo {
+  img {
+    width: 100%;
+    border-radius: 50%;
+  }
+}
+
+.routers {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0;
+
+  a {
+    padding: 8px 10px;
+    background: #181818;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+}
