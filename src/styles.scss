@@ -1,9 +1,27 @@
 * {
-  box-sizing: border-box
+  box-sizing: border-box;
+  color: #181818
 }
 
 body {
   margin: 0;
-  font-family: 'Sarabun', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
 }
+
+p {
+  font-size: 18px;
+  padding: 0 0 20px 0;
+  margin: 0;
+
+  a {
+    color: #181818;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+  }
+}
+
