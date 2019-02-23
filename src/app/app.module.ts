@@ -7,6 +7,7 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 import {AboutComponent} from './about/about.component';
 import {PortfolioComponent} from './portfolio/portfolio.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
