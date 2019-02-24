@@ -1,11 +1,11 @@
 <div class="main_container" fxLayout='row' fxLayoutAlign="center center">
-  <div fxFlex="800px" class="box" fxLayoutGap="40px" fxLayout='row' fxLayoutAlign="space-between center">
+  <div  class="box">
     <div class="routers">
       <a routerLinkActive="active" routerLink="/about" href="">About</a>
       <a routerLinkActive="active" routerLink="/portfolio" href="">Portfolio</a>
     </div>
 
-    <div class="my_photo" fxFlex="160px">
+    <div class="my_photo">
       <img src="assets/my_photo.jpg" alt="My photo">
     </div>
 
@@ -15,7 +15,6 @@
         <h2>Front-end Developer</h2>
       </div>
       <div class="router_outlet">
-
         <div [@routeAnimations]="prepareRoute(outlet)">
           <router-outlet #outlet="outlet"></router-outlet>
         </div>
