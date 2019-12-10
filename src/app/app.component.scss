@@ -3,36 +3,36 @@ body {
 }
 .main_container {
   min-height: 100vh;
-  border-bottom: 10px solid #181818;
   padding: 20px;
+  border-bottom: 10px solid #181818;
   background: #fafafa;
   @media (max-width: 760px) {
-    display: block!important;
+    display: block !important;
     border-bottom: 2px solid #181818;
   }
 }
 .box {
-  padding: 20px;
-  background: #ffffff;
-  margin-bottom: 80px;
   position: relative;
-  transition: all 0.3s ease;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   display: flex;
-  flex-basis: 800px;
   align-items: center;
+  flex-basis: 800px;
+  margin-bottom: 80px;
+  padding: 20px;
+  transition: all 0.3s ease;
+  background: #ffffff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   @media (max-width: 760px) {
     display: block;
+    margin-bottom: 0;
     padding: 40px 20px 20px 20px;
     text-align: center;
-    margin-bottom: 0;
   }
 }
 .right {
-  min-height: 280px;
   position: relative;
   overflow: hidden;
   flex: 1;
+  min-height: 280px;
 }
 .my_photo {
   flex-basis: 210px;
@@ -41,27 +41,27 @@ body {
     margin-bottom: 20px;
   }
   img {
-    border-radius: 50%;
     width: 180px;
     height: 180px;
     margin: 0 auto;
+    border-radius: 50%;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   }
 }
 .routers {
+  font-size: 0;
   position: absolute;
   top: 0;
   right: 0;
-  font-size: 0;
   margin-right: 20px !important;
   a {
-    padding: 8px 10px;
-    background: #181818;
-    color: #ffffff;
     font-size: 14px;
     font-weight: 300;
-    text-decoration: none;
+    padding: 8px 10px;
     transition: all 0.3s ease;
+    text-decoration: none;
+    color: #ffffff;
+    background: #181818;
     &:not(:last-child) {
       margin-right: 5px;
     }
@@ -71,21 +71,21 @@ body {
   }
 }
 .main_info {
-  border-bottom: 1px solid #181818;
-  padding-bottom: 20px;
   margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #181818;
 }
 h1 {
   font-size: 26px;
+  line-height: 1;
   margin: 0 0 10px 0;
   padding: 0;
-  line-height: 1;
   color: #181818;
 }
 h2 {
   font-size: 18px;
   font-weight: 400;
-  color: rgba(0, 0, 0, .54);;
   line-height: 1;
   margin: 0 0;
+  color: rgba(0, 0, 0, .54);;
 }
