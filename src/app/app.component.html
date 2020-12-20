@@ -4,7 +4,6 @@
       <a href="" routerLink="/about" routerLinkActive="active">About</a>
       <a href="" routerLink="/portfolio" routerLinkActive="active">Portfolio</a>
     </div>
-
     <div class="my_photo">
       <img alt="My photo" src="assets/my_photo.jpg">
     </div>
@@ -15,8 +14,8 @@
         <h2>Front-end Developer</h2>
       </div>
       <div class="router_outlet">
-        <div [@routeAnimations]="prepareRoute(outlet)">
-          <router-outlet #outlet="outlet"></router-outlet>
+        <div>
+          <router-outlet></router-outlet>
         </div>
       </div>
     </div>

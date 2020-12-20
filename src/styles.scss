@@ -2,18 +2,22 @@
   box-sizing: border-box;
   color: #181818
 }
+
 body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
   margin: 0;
 }
+
 p {
   font-size: 18px;
   margin: 0;
   padding: 0 0 20px 0;
+
   a {
     text-decoration: underline;
     color: #181818;
+
     &:hover {
       text-decoration: none;
     }

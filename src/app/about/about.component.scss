@@ -1,34 +1,42 @@
 .s_icons {
   width: 100%;
   padding-bottom: 10px;
+
   a {
     font-size: 0;
     display: inline-block;
     margin-right: 3px;
     transition: all 0.3s ease;
     border-bottom: 2px solid transparent;
+
     div {
       width: 40px;
       height: 40px;
       text-align: center;
     }
+
     img {
       max-width: 16px;
       margin: 0 auto;
     }
+
     &:hover {
       &.linkedin {
         border-bottom-color: #0077B5;
       }
+
       &.github {
         border-bottom-color: #181717;
       }
+
       &.gitlab {
         border-bottom-color: #E24329;
       }
+
       &.facebook {
         border-bottom-color: #3B5998;
       }
+
       &.gmail {
         border-bottom-color: #D14836;
       }

@@ -1,6 +1,7 @@
 body {
   overflow: hidden;
 }
+
 .main_container {
   min-height: 100vh;
   padding: 20px;
@@ -11,6 +12,7 @@ body {
     border-bottom: 2px solid #181818;
   }
 }
+
 .box {
   position: relative;
   display: flex;
@@ -28,18 +30,21 @@ body {
     text-align: center;
   }
 }
+
 .right {
   position: relative;
   overflow: hidden;
   flex: 1;
-  min-height: 280px;
+  min-height: 285px;
 }
+
 .my_photo {
   flex-basis: 210px;
   @media (max-width: 760px) {
     flex-basis: 100%;
     margin-bottom: 20px;
   }
+
   img {
     width: 180px;
     height: 180px;
@@ -48,12 +53,14 @@ body {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   }
 }
+
 .routers {
   font-size: 0;
   position: absolute;
   top: 0;
   right: 0;
   margin-right: 20px !important;
+
   a {
     font-size: 14px;
     font-weight: 300;
@@ -62,19 +69,26 @@ body {
     text-decoration: none;
     color: #ffffff;
     background: #181818;
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+
     &:not(:last-child) {
       margin-right: 5px;
     }
+
     &:hover, &.active {
       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     }
   }
 }
+
 .main_info {
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #181818;
 }
+
 h1 {
   font-size: 26px;
   line-height: 1;
@@ -82,6 +96,7 @@ h1 {
   padding: 0;
   color: #181818;
 }
+
 h2 {
   font-size: 18px;
   font-weight: 400;
